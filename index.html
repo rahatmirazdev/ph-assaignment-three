@@ -22,7 +22,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style></style>
   </head>
-  <body>
+  <body style="font-family: 'Manrope', sans-serif">
     <!-- navbar -->
     <header
       class="max-w-[1170px] mx-auto bg-gradient-to-t from-white to-transparent px-3 md:p-0"
@@ -98,10 +98,12 @@
         </div>
         <div class="hero-content text-center">
           <div class="">
-            <h1 class="text-3xl md:text-6xl font-bold">
+            <h1 class="text-4xl md:text-6xl font-bold">
               A barn house of this design has a striking appearance
             </h1>
-            <p class="py-6 text-zinc-700 font-medium leading-[1.63rem] max-w-[972px] mx-auto">
+            <p
+              class="py-6 text-zinc-700 font-medium leading-[1.63rem] max-w-[972px] mx-auto"
+            >
               The barn house captivates with its blend of rustic charm and
               modern sophistication, featuring weathered wood, sleek metal
               accents, and large windows that flood the space with natural
@@ -113,7 +115,7 @@
               >
                 View Details
                 <i
-                  class="fa-solid fa-arrow-right-long p-2 bg-[#ABEF5F] rounded-full -rotate-45 "
+                  class="fa-solid fa-arrow-right-long p-2 bg-[#ABEF5F] rounded-full -rotate-45"
                 ></i>
               </button>
             </div>
@@ -121,5 +123,73 @@
         </div>
       </div>
     </header>
+
+    <main>
+      <div class="w-full bg-[#F4F4F4]">
+        <!-- about us section -->
+        <div class="hero bg-base-200 xl:py-24 py-8">
+          <div class="hero-content flex flex-col lg:flex-row items-center">
+            <div>
+              <button
+                class="px-4 py-2 bg-white rounded-full text-zinc-700 leading-[1.69rem] font-bold mb-4"
+              >
+                <i class="fa-solid fa-arrow-right-long p-2 rounded-full"></i>
+                About Us
+              </button>
+              <h2
+                class="text-neutral-800 text-4xl xl:text-[60px] leading-none xl:leading-[4.25rem] font-extrabold"
+              >
+                We design thoughtful, liveable spaces
+              </h2>
+              <p class="py-6 text-[#494949] text-[14px] font-medium leading-[24px] tracking-[0%]">
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+
+              <div>
+                <div
+                  class="card card-side bg-base-100 shadow-xl p-6 items-center gap-6 max-w-[559px] mb-6"
+                >
+                  <figure class="w-16 h-16">
+                    <img src="./assets/commercial.png" alt="commercial" />
+                  </figure>
+                  <div class="card-body p-0">
+                    <h2
+                      class="card-title text-zinc-700 text-xl font-extrabold leading-[1.63rem]"
+                    >
+                      Commercial
+                    </h2>
+                    <p class="text-neutral-500 text-base font-medium max-w-80">
+                      The barn house captivates with its blend of rustic charm
+                      and modern.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="card card-side bg-base-100 shadow-xl p-6 items-center gap-6 max-w-[559px]"
+                >
+                  <figure class="w-16 h-16">
+                    <img src="./assets/residential.png" alt="residential" />
+                  </figure>
+                  <div class="card-body p-0">
+                    <h2
+                      class="card-title text-zinc-700 text-xl font-extrabold leading-[1.63rem]"
+                    >
+                      Residential
+                    </h2>
+                    <p class="text-neutral-500 text-base font-medium max-w-80">
+                      The barn house captivates with its blend of rustic charm
+                      and modern.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="./assets/Rectangle.png" class="rounded-2xl shadow-2xl mt-6 xl:mt-auto" />
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
